@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.contenedordecarrucel {
+   
+    border: 5px, solid, rgb(0, 0, 0);
+    height: 700px;
+    overflow: hidden;
+}
+
+.itemcar {
+
+    position: relative;
+    height: 100%;
+}
+
+section.itemcar.uno{
+background-color: aliceblue;
+}
+
+section.itemcar.dos{
+   background-color: aliceblue;
+}
+
+section.itemcar.tres{
+    background-color: aliceblue;
+}
+
+
+
+.contenedorcar {
+   
+    height: 100%;
+
+}
+
+.flechascar {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px,;
+}
+
+h1{
+    text-align: center;
+}
+
