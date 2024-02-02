@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabla</title>
+    <link rel="stylesheet" href="public/style/index.css">
+</head>
+<body>
+ 
+    <form action="registro">
+        <label for="nombre">nombre</label>
+        <input type="text" name="nombre" id="nombre" placeholder="julian">
+        <label for="apellido">apellido</label>
+        <input type="text" name="apellido" id="apellido" placeholder="perez">
+       <label for="edad">fecha</label>
+        <input type="datetime-local" name="fecha" id="fecha" placeholder="23/01/2024">
+        <input type="submit" value="Guardar">
+
+    </form>
+    <table>
+
+        <thead>
+
+            <tr>
+                <th>nombre</th>
+                <th>apellido</th>
+                <th>fecha</th>
+            </tr>
+
+        </thead>
+        <tbody>
+
+                <td>julian</td>
+                <td>perez</td>
+                <td>23/01/2024</td>
+
+                <td>
+                    <a href="#">editar</a>
+                    <a href="#">eliminar</a>
+                </td>
+
+        </tbody>
+    </table>
+
+</body>
+</html>
